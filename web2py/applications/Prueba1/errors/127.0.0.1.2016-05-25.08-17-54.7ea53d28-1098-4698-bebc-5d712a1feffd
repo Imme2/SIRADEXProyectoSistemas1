@@ -1,0 +1,21 @@
+(dp1
+S'output'
+p2
+S"<type 'exceptions.IOError'> [Errno https error] no host given"
+p3
+sS'layer'
+p4
+S'/home/guillermo_bet/Documentos/web2py/applications/Prueba1/compiled/controllers.default.user.pyc'
+p5
+sS'code'
+p6
+S'<code object <module> at 0xaf9e0578, file "/home/guillermo_bet/Documentos/web2py/applications/Prueba1/compiled/controllers.default.user.py", line 12>'
+p7
+sS'snapshot'
+p8
+(dp9
+sS'traceback'
+p10
+S'Traceback (most recent call last):\n  File "/home/guillermo_bet/Documentos/web2py/gluon/restricted.py", line 227, in restricted\n    exec ccode in environment\n  File "/home/guillermo_bet/Documentos/web2py/applications/Prueba1/compiled/controllers.default.user.py", line 63, in <module>\n  File "/home/guillermo_bet/Documentos/web2py/gluon/globals.py", line 417, in <lambda>\n    self._caller = lambda f: f()\n  File "/home/guillermo_bet/Documentos/web2py/applications/Prueba1/compiled/controllers.default.user.py", line 40, in user\n  File "/home/guillermo_bet/Documentos/web2py/gluon/tools.py", line 1941, in __call__\n    return getattr(self, args[0])()\n  File "/home/guillermo_bet/Documentos/web2py/gluon/tools.py", line 3035, in login\n    redirect(cas.login_url(next),\n  File "/home/guillermo_bet/Documentos/web2py/gluon/contrib/login_methods/cas_auth.py", line 66, in login_url\n    current.session.token = self._CAS_login()\n  File "/home/guillermo_bet/Documentos/web2py/gluon/contrib/login_methods/cas_auth.py", line 98, in _CAS_login\n    data = urllib.urlopen(url).read()\n  File "/usr/lib/python2.7/urllib.py", line 87, in urlopen\n    return opener.open(url)\n  File "/usr/lib/python2.7/urllib.py", line 208, in open\n    return getattr(self, name)(url)\n  File "/usr/lib/python2.7/urllib.py", line 412, in open_https\n    if not host: raise IOError, (\'https error\', \'no host given\')\nIOError: [Errno https error] no host given\n'
+p11
+s.
